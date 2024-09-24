@@ -1,0 +1,68 @@
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kontainer utama */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 800px;
+}
+
+/* Kontainer konten menggunakan Flexbox */
+.content {
+    display: flex;
+    align-items: center;
+}
+
+/* Gambar ulang tahun */
+.birthday-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Gaya untuk bagian teks */
+.text-content {
+    max-width: 400px;
+}
+
+/* Heading 1 */
+h1 {
+    color: #ff4500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Paragraf */
+p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Div dengan border */
+.birthday-wishes {
+    border: 2px solid #ff4500;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffe4b5;
+}
+
+.birthday-wishes p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+} 
